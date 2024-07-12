@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework-03.07.2024-Serialization-Logging", "Homework-03.07.2024-Serialization-Logging\Homework-03.07.2024-Serialization-Logging.csproj", "{24EB2281-3F69-46AB-8EA9-82ACEDA8FBDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24EB2281-3F69-46AB-8EA9-82ACEDA8FBDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24EB2281-3F69-46AB-8EA9-82ACEDA8FBDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24EB2281-3F69-46AB-8EA9-82ACEDA8FBDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24EB2281-3F69-46AB-8EA9-82ACEDA8FBDD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF62DCA7-2C2B-4257-A8C5-ECD9042FA3EF}
+	EndGlobalSection
+EndGlobal
