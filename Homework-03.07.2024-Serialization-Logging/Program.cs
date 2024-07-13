@@ -57,13 +57,13 @@ namespace Homework_03._07._2024_Serialization_Logging
             group.Add(student6);
 
             var serializer = new XmlSerializer(typeof(Group));
-            string path = @"C:\1\XMLSerial.xml";
+            string path = @"C:\1\XMLSerialize1.xml";
             TextWriter writer = new StreamWriter(path);
             serializer.Serialize(writer, group);
             writer.Close();
 
 
-            var read = new FileStream(@"C:\1\XMLSerial.xml", FileMode.Open, FileAccess.Read);
+            var read = new FileStream(@"C:\1\XMLSerialize1.xml", FileMode.Open, FileAccess.Read);
             var copy = (Group)serializer.Deserialize(read);
             read.Close();
             if (copy is null)

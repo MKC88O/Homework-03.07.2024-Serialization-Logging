@@ -30,15 +30,12 @@ namespace Homework_03._07._2024_Serialization_Logging
         //[XmlArrayItem("Exam")]
         //public List<int> exams = [];
 
-        [XmlArray("Tests")]
-        [XmlArrayItem("Exam")]
+        [XmlArrayItem("Test")]
         public List<int> Tests { get; set; }
 
-        [XmlArray("CourseWorks")]
         [XmlArrayItem("CourseWork")]
         public List<int> CourseWorks { get; set; }
 
-        [XmlArray("Exams")]
         [XmlArrayItem("Exam")]
         public List<int> Exams { get; set; }
 
