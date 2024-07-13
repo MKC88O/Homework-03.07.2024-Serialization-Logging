@@ -17,17 +17,8 @@ namespace Homework_03._07._2024_Serialization_Logging
         protected DateOnly dateOfBirth;
         protected string? homeAdres;
         protected string? phoneNumber;
-
-        //[XmlArray("Tests")]
-        //[XmlArrayItem("Test")]
         //public List<int> tests = [];
-
-        //[XmlArray("CourseWorks")]
-        //[XmlArrayItem("CourseWork")]
         //public List<int> courseWorks = [];
-
-        //[XmlArray("Exams")]
-        //[XmlArrayItem("Exam")]
         //public List<int> exams = [];
 
         [XmlArrayItem("Test")]
